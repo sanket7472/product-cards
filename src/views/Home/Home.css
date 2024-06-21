@@ -1,0 +1,8 @@
+.blogs-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    margin-top: 150px;
+}
