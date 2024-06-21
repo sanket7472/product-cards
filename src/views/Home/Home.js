@@ -1,12 +1,12 @@
 import "./Home.css"
-import blogs from "../../data"
-import BlogCard from "../../components/BlogCards/BlogCard";
+import blogs from "./../data"
+import BlogCard from "./../../components/BlogCards/BlogCard";
 
 function Home() {
     console.log(blogs);
   return (
     <>
-  
+ 
         <div className="blogs-container">
             {
                 blogs.map((blogObject, i) => {
@@ -31,7 +31,7 @@ function Home() {
                     })
             }
         </div>
-        
+        <h1 className="Heading">Sanket's Product Card App</h1>
     </>
   )
 }

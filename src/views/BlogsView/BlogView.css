@@ -1,6 +1,6 @@
 .BlogView-cards{
     width: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(160, 179, 179);
     margin: 4% 30%;
     padding: 3%;
     border-radius: 20px;
@@ -12,4 +12,14 @@
 .BlogView-avtar{
     border-radius: 50%;
     margin-top: 10px;
+}
+.BlogView-img{
+    height: 280px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+}
+.price{
+    font-size: 30px;
+    font-style: italic;
 }
